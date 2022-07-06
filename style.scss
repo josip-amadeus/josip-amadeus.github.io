@@ -17,22 +17,22 @@ $paleta: (
 
 @font-face{ 
 	font-family: fontichA;
-	src: url("/fontovi/NeueMontreal-Medium.otf");
+	src: url("/fontovi/Aeonik-Black.ttf");
 }
 
 @font-face{ 
 	font-family: fontichB;
-	src: url("/fontovi/NeueMontreal-Medium.otf");
+	src: url("/fontovi/Aeonik-Medium.ttf");
 }
 
 @font-face{ 
 	font-family: fontichC;
-	src: url("/fontovi/NeueMontreal-Medium.otf");
+	src: url("/fontovi/Aeonik-Air.ttf");
 }
 
 @font-face{ 
 	font-family: fontichD;
-	src: url("/fontovi/NeueMontreal-Medium.otf");
+	src: url("/fontovi/Aeonik-Light.ttf");
 }
 
 *{
@@ -66,7 +66,7 @@ a{
     text-decoration: none;
     margin-top: 5vh;
     letter-spacing: -4px; 
-	font-family: fontichB;   font-family: 'Montserrat', sans-serif;
+	font-family: fontichB;    
     color: boja(bijela); 
     font-size: 52px;  
     transition: 0.3s;
@@ -75,7 +75,7 @@ a{
         color: boja(crna);
         font-size: 90px; 
         letter-spacing: -8px; 
-        font-family: fontichB;  font-family: 'Montserrat', sans-serif;
+        font-family: fontichB;  
         margin-top: -5px;
         margin-left: 4vw;
         transition: 0.4s;
@@ -115,7 +115,7 @@ p{
     text-align: left;
     margin-top: 20px;
     color: boja(bijela);
-	font-family: fontichD;   font-family: 'Montserrat', sans-serif;
+	font-family: fontichD;   
     font-size: 18px; 
     transition: 0.5s;
  
@@ -191,7 +191,7 @@ p:hover{
 
 .ftr{
     cursor: auto;
-    font-family: fontichB; font-family: 'Montserrat', sans-serif;
+    font-family: fontichB;  
     color: boja(zelena);
     letter-spacing: -0.3px;
     @media screen and (min-width: $granica) {
@@ -222,7 +222,7 @@ p:hover{
     .info1{
         cursor: auto;
         letter-spacing: -0.3px;
-        font-family: fontichB; font-family: 'Montserrat', sans-serif;
+        font-family: fontichB;  
         background-color: transparent;
         color: boja(bijela); 
         @media screen and (min-width: $granica) {
@@ -236,7 +236,7 @@ p:hover{
         font-size: 15px;
         cursor: auto;
         letter-spacing: -0.3px;
-        font-family: fontichB; font-family: 'Montserrat', sans-serif;
+        font-family: fontichB;  
         background-color: transparent;
         color: boja(bijela); 
         @media screen and (min-width: $granica) {
@@ -258,7 +258,7 @@ p:hover{
 }
 
 button{
-  font-family: fontichB; font-family: 'Montserrat', sans-serif;
+  font-family: fontichB;  
   font-size: 15px;
   color: boja(plava);
   background-color: boja(zelena);
