@@ -288,9 +288,9 @@ p:hover{
     }
 
     .info2:hover{
-        transform: translateY(2px);
+        transform: translateY(0px);
         @media screen and (min-width: $granica) { 
-            transform: translateY(2px);
+            transform: translateY(0px);
         }
 
     }
@@ -298,13 +298,7 @@ p:hover{
 
 }
 
-#kontakt:hover{
-    
-    @media screen and (min-width: $granica) {
-        background-color: boja(plava); 
-        transition: 0.3s;
-    }
-}
+ 
 
 button{
   font-family: fontichB;
