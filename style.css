@@ -1,22 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 @font-face {
   font-family: fontichA;
-  src: url("/fontovi/Aeonik-Black.ttf");
+  src: url("/fontovi/NeueMontreal-Medium.otf");
 }
 
 @font-face {
   font-family: fontichB;
-  src: url("/fontovi/Aeonik-Medium.ttf");
+  src: url("/fontovi/NeueMontreal-Medium.otf");
 }
 
 @font-face {
   font-family: fontichC;
-  src: url("/fontovi/Aeonik-Air.ttf");
+  src: url("/fontovi/NeueMontreal-Medium.otf");
 }
 
 @font-face {
   font-family: fontichD;
-  src: url("/fontovi/Aeonik-Light.ttf");
+  src: url("/fontovi/NeueMontreal-Medium.otf");
 }
 
 * {
@@ -59,6 +60,7 @@ a {
   margin-top: 5vh;
   letter-spacing: -4px;
   font-family: fontichB;
+  font-family: 'Montserrat', sans-serif;
   color: #fefefe;
   font-size: 52px;
   -webkit-transition: 0.3s;
@@ -71,6 +73,7 @@ a {
     font-size: 90px;
     letter-spacing: -8px;
     font-family: fontichB;
+    font-family: 'Montserrat', sans-serif;
     margin-top: -5px;
     margin-left: 4vw;
     -webkit-transition: 0.4s;
@@ -127,6 +130,7 @@ p {
   margin-top: 20px;
   color: #fefefe;
   font-family: fontichD;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -231,6 +235,7 @@ p:hover {
 .ftr {
   cursor: auto;
   font-family: fontichB;
+  font-family: 'Montserrat', sans-serif;
   color: #ceff5a;
   letter-spacing: -0.3px;
 }
@@ -282,6 +287,7 @@ p:hover {
   cursor: auto;
   letter-spacing: -0.3px;
   font-family: fontichB;
+  font-family: 'Montserrat', sans-serif;
   background-color: transparent;
   color: #fefefe;
 }
@@ -289,6 +295,7 @@ p:hover {
 @media screen and (min-width: 767px) {
   #kontakt .info1 {
     color: #fefefe;
+    font-size: 18px;
   }
 }
 
@@ -297,6 +304,7 @@ p:hover {
   cursor: auto;
   letter-spacing: -0.3px;
   font-family: fontichB;
+  font-family: 'Montserrat', sans-serif;
   background-color: transparent;
   color: #fefefe;
 }
@@ -304,6 +312,7 @@ p:hover {
 @media screen and (min-width: 767px) {
   #kontakt .info2 {
     color: #fefefe;
+    font-size: 18px;
   }
 }
 
@@ -321,6 +330,7 @@ p:hover {
 
 button {
   font-family: fontichB;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   color: #181818;
   background-color: #ceff5a;
