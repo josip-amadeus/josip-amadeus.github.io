@@ -59,7 +59,7 @@ function setup() {
   canvas.position(0, 0);
   canvas.style("z-index", "-1");
   
-  var gumb = createButton("Klikni me");
+  var gumb = createButton("Novi razmještaj");
   gumb.position(110, 375);
   gumb.mousePressed(miks);
  
