@@ -86,7 +86,6 @@ a:hover{
     transition: .2s;
     @media screen and (min-width: $granica) {
         color: boja(plava); 
-        transform: translateX(-3px);
         letter-spacing: -5px; 
         transition: 0.3s;
     }
