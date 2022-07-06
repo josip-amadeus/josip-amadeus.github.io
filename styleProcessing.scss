@@ -273,11 +273,12 @@ p:hover{
     }
     
     
+    
     .info2{
         font-size: 15px;
         cursor: auto;
         letter-spacing: -0.3px;
-        font-family: fontichB; 
+        font-family: fontichB;  
         background-color: transparent;
         color: boja(bijela); 
         @media screen and (min-width: $granica) {
@@ -285,14 +286,15 @@ p:hover{
             font-size: 18px;
         }
     }
-	
-	  .info2:hover{
+
+    .info2:hover{
         transform: translateY(2px);
         @media screen and (min-width: $granica) { 
             transform: translateY(2px);
         }
 
     }
+
 
 }
 
