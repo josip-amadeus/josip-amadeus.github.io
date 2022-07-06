@@ -310,6 +310,18 @@ p:hover {
   }
 }
 
+#kontakt .info2:hover {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+@media screen and (min-width: 767px) {
+  #kontakt .info2:hover {
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+  }
+}
+
 #kontakt:hover {
   background-color: #181818;
 }
