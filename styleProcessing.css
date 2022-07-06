@@ -349,10 +349,10 @@ p:hover {
 }
 
 #kontakt .info1 {
-  font-size: 15px;
   cursor: auto;
   letter-spacing: -0.3px;
   font-family: fontichB;
+  font-family: 'Montserrat', sans-serif;
   background-color: transparent;
   color: #fefefe;
 }
@@ -360,6 +360,7 @@ p:hover {
 @media screen and (min-width: 767px) {
   #kontakt .info1 {
     color: #fefefe;
+    font-size: 18px;
   }
 }
 
@@ -368,6 +369,7 @@ p:hover {
   cursor: auto;
   letter-spacing: -0.3px;
   font-family: fontichB;
+  font-family: 'Montserrat', sans-serif;
   background-color: transparent;
   color: #fefefe;
 }
@@ -375,6 +377,7 @@ p:hover {
 @media screen and (min-width: 767px) {
   #kontakt .info2 {
     color: #fefefe;
+    font-size: 18px;
   }
 }
 
