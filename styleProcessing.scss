@@ -261,33 +261,32 @@ p:hover{
     }
 
     .info1{
-        font-size: 15px;
         cursor: auto;
         letter-spacing: -0.3px;
-        font-family: fontichB;
+        font-family: fontichB; font-family: 'Montserrat', sans-serif;
         background-color: transparent;
         color: boja(bijela); 
         @media screen and (min-width: $granica) {
-            color: boja(bijela); 
+            color: boja(bijela);  
+            font-size: 18px;
         }
     }
-
+    
     
     .info2{
         font-size: 15px;
         cursor: auto;
         letter-spacing: -0.3px;
-        font-family: fontichB;
+        font-family: fontichB; font-family: 'Montserrat', sans-serif;
         background-color: transparent;
         color: boja(bijela); 
         @media screen and (min-width: $granica) {
-            color: boja(bijela); 
+            color: boja(bijela);  
+            font-size: 18px;
         }
     }
-    
 
 }
-
 
 #kontakt:hover{
     
