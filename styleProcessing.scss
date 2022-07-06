@@ -261,6 +261,20 @@ p:hover{
     }
 
     .info1{
+        font-size: 15px;
+        cursor: auto;
+        letter-spacing: -0.3px;
+        font-family: fontichB;
+        background-color: transparent;
+        color: boja(bijela); 
+        @media screen and (min-width: $granica) {
+            color: boja(bijela); 
+        }
+    }
+
+    
+    .info2{
+        font-size: 15px;
         cursor: auto;
         letter-spacing: -0.3px;
         font-family: fontichB;
