@@ -21,7 +21,7 @@ function miks(){
   
   randomVel1 = random(90,115);
   randomVel2 = random(34,66);
-  randomX1 = random(0.6, 0.8);
+  randomX1 = random(0.76, 0.83);
   randomY1 = random(0.4, 0.6);
   randomX2 = random(0.1, 0.4);
   randomY2 = random(0.5, 0.8);
