@@ -292,6 +292,21 @@ p:hover {
   }
 }
 
+#kontakt .info2 {
+  font-size: 15px;
+  cursor: auto;
+  letter-spacing: -0.3px;
+  font-family: fontichB;
+  background-color: transparent;
+  color: #fefefe;
+}
+
+@media screen and (min-width: 767px) {
+  #kontakt .info2 {
+    color: #fefefe;
+  }
+}
+
 #kontakt:hover {
   background-color: #181818;
 }
