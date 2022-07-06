@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O meni - Twitter</title> 
+  <link rel="stylesheet" href="styleProcessing.css">
+  <script src="p5.js"></script>  
+  <script src="sketch2.js"></script>
+</head>
+
+<body>
+  <main>
+    <!-- NAVBAR-->
+    <nav>
+      <a href="#">Twitter</a>
+    </nav>
+    
+    
+
+    
+    <section class="paragrafi2P">
+    <div class="opis">
+        <p>Profil na Twitteru tek sam nedavno otvorio. Imam ga već dulje vrijeme, no tek sam nedavno počeo objavljivati stvari.</p>
+        <p>Twitter imam ne bih li mogao prezentirati sve svoje radove na kojima radim. Trenutno nemam puno toga objavljeno, no Twitter sam si zamislio kao mjesto gdje ću objavljivati radove na kojima radim i to nebitno jesu li u pitanju radovi u Processingu, p5.js-u ili pak Blenderu.</p>
+        <p>Link na moj Twitter profil nalazi se u nastavku.</p>
+    </div>
+    </section>
+
+    
+    <section class="linkovi">
+      <div class="hrefovi">
+        <a href="https://twitter.com/amadeusjosip" target="blank" class="radovi">twitter</a> 
+        <a class="radovi2">natrag</a> 
+         
+      </div>
+
+      <div id="kontakt">
+        <div class="info1"><span class="ftr">e-mail:</span> josip.amadeus@gmail.com</div>
+        <div class="info1"><span class="ftr">mobitel:</span> +385(99)-5416-404</div>
+    </div>
+    </section>
+
+    
+
+
+      
+    
+
+
+  </main>
+
+
+
+
+</body>
+<script>
+  let gumbNazad = document.querySelector('a[class = radovi2]');
+
+  gumbNazad.addEventListener('click', () => {
+        window.history.back();
+  });
+</script>
+</html>

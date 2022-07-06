@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@font-face {
+  font-family: fontichA;
+  src: url("/fontovi/Aeonik-Black.ttf");
+}
+
+@font-face {
+  font-family: fontichB;
+  src: url("/fontovi/Aeonik-Medium.ttf");
+}
+
+@font-face {
+  font-family: fontichC;
+  src: url("/fontovi/Aeonik-Air.ttf");
+}
+
+@font-face {
+  font-family: fontichD;
+  src: url("/fontovi/Aeonik-Light.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  cursor: crosshair;
+}
+
+body {
+  background-color: #181818;
+  width: 100%;
+}
+
+nav {
+  background-color: transparent;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 767px) {
+  nav {
+    background-color: #fefefe;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+}
+
+a {
+  text-decoration: none;
+  margin-top: 5vh;
+  letter-spacing: -4px;
+  font-family: fontichB;
+  color: #fefefe;
+  font-size: 52px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media screen and (min-width: 767px) {
+  a {
+    color: #181818;
+    font-size: 90px;
+    letter-spacing: -8px;
+    font-family: fontichB;
+    margin-top: -5px;
+    margin-left: 4vw;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+}
+
+a:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  color: #ceff5a;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+@media screen and (min-width: 767px) {
+  a:hover {
+    color: #ceff5a;
+    letter-spacing: -5px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+}
+
+.paragrafi1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.opis {
+  width: 50vw;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 767px) {
+  .opis {
+    width: 70vw;
+    margin-top: 20px;
+    margin-left: -21vw;
+  }
+}
+
+p {
+  text-align: left;
+  margin-top: 20px;
+  color: #fefefe;
+  font-family: fontichD;
+  font-size: 18px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media screen and (min-width: 767px) {
+  p {
+    text-align: left;
+    font-size: 40px;
+  }
+}
+
+p:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media screen and (min-width: 767px) {
+  p:hover {
+    -webkit-transform: translateX(11px);
+            transform: translateX(11px);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+}
+
+.paragrafi2 {
+  width: 100%;
+  -webkit-transform: translateY(400px);
+          transform: translateY(400px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.linkovi {
+  background-color: #181818;
+  width: 100%;
+  -webkit-transform: translateY(500px);
+          transform: translateY(500px);
+}
+
+@media screen and (min-width: 767px) {
+  .linkovi {
+    background-color: #fefefe;
+    -webkit-transform: translateY(600px);
+            transform: translateY(600px);
+  }
+}
+
+.hrefovi {
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.radovi {
+  width: 0%;
+  background-color: transparent;
+  padding-left: 50px;
+  color: #fefefe;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media screen and (min-width: 767px) {
+  .radovi {
+    color: #181818;
+    padding-left: 0px;
+  }
+}
+
+.radovi:hover {
+  color: #ceff5a;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+@media screen and (min-width: 767px) {
+  .radovi:hover {
+    color: #ceff5a;
+  }
+}
+
+.ftr {
+  cursor: auto;
+  font-family: fontichB;
+  color: #ceff5a;
+  letter-spacing: -0.3px;
+}
+
+@media screen and (min-width: 767px) {
+  .ftr {
+    color: #ceff5a;
+  }
+}
+
+#kontakt {
+  font-size: 15px;
+  cursor: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #181818;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media screen and (min-width: 767px) {
+  #kontakt {
+    background-color: #181818;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    font-size: 18px;
+  }
+}
+
+#kontakt .info1 {
+  cursor: auto;
+  letter-spacing: -0.3px;
+  font-family: fontichB;
+  background-color: transparent;
+  color: #fefefe;
+}
+
+@media screen and (min-width: 767px) {
+  #kontakt .info1 {
+    color: #fefefe;
+  }
+}
+
+#kontakt:hover {
+  background-color: #181818;
+}
+
+@media screen and (min-width: 767px) {
+  #kontakt:hover {
+    background-color: #181818;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+}
+
+button {
+  font-family: fontichB;
+  font-size: 15px;
+  color: #181818;
+  background-color: #ceff5a;
+  background-color: #fefefe;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  padding: 12px 18px;
+  -webkit-transition: .7s;
+  transition: .7s;
+  border-radius: 0px;
+}
+
+@media screen and (min-width: 767px) {
+  button {
+    font-size: 21px;
+    -webkit-transform: translateY(40px) translateX(-55px);
+            transform: translateY(40px) translateX(-55px);
+  }
+}
+
+button:hover {
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: transparent;
+  color: #fefefe;
+}
+/*# sourceMappingURL=style.css.map */

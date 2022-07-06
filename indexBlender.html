@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O meni - Blender</title> 
+  <link rel="stylesheet" href="styleProcessing.css">
+  <script src="p5.js"></script>  
+  <script src="sketch2.js"></script>
+</head>
+
+<body>
+  <main>
+    <!-- NAVBAR-->
+    <nav>
+      <a href="#">Blender</a>
+    </nav>
+    
+    
+
+    
+    <section class="paragrafi2P">
+    <div class="opis">
+        <p>Na fakultetu sam se prvi put susreo sa Blenderom - sa programom namijenjenom za modeliranje i izradu 3D scena. Od tada se bavim njime, nešto aktivnije zadnjih pola godine.</p>
+        <p>Svakakve radove sam radio u Blenderu, od jednostavnijih i "simpatičnih" rendera pa do onih kompleksnijih. Osobno su mi draži renderi koji su kompleksniji, tj. renderi gdje sam pokušao nešto napraviti toliko realistično da izgleda kao prava fotografija. U nastavku možete vidjeti neke od meni dražih rendera za koje smatram da kvalitetno reprezentiraju moje sposobnosti i snalaženje u Blenderu.</p>
+        <p>Osim za izradu rendera Blender također koristim za izradu animacija. Primjer animacija koje sam radio u Blenderu se također nalazi u nastavku.</p>
+    </div>
+    </section>
+
+<!-- 
+    <section class="linkNaSlike">
+      <h3 class="fotkice">1. slika</h3>
+        <h3 class="fotkice">2. slika</h3>
+          <h3 class="fotkice">3. slika</h3>
+            <h3 class="fotkice">4. slika</h3>
+              <h3 class="fotkice">5. slika</h3>
+                <h3 class="fotkice">6. slika</h3>
+    </section>
+-->
+
+<section class="galerija">
+  <img src="renderi/rend1.png" class="slike1-6">
+  <img src="renderi/rend2.png" class="slike1-6">
+  <img src="renderi/rend3.png" class="slike1-6">
+  <img src="renderi/rend4.png" class="slike1-6">
+  <img src="renderi/rend5.png" class="slike1-6">
+</section>
+
+ 
+
+
+<section class="videi">
+
+      <video width="320" height="320" controls loop class="video12">
+        <source src="renderi/video1.mp4" type="video/mp4">
+      </video>
+
+      <video width="320" height="320" controls loop class="video12">
+        <source src="renderi/video2.mp4" type="video/mp4">
+      </video>
+
+</section>
+
+    
+    
+    <section class="linkovi">
+      <div class="hrefoviBlender">
+        <a class="radovi2">natrag</a> 
+      </div>
+
+      <div id="kontakt">
+        <div class="info1"><span class="ftr">e-mail:</span> josip.amadeus@gmail.com</div>
+        <div class="info1"><span class="ftr">mobitel:</span> +385(99)-5416-404</div>
+    </div>
+    </section>
+
+    
+
+
+      
+    
+
+
+  </main>
+
+
+
+
+</body>
+
+<script>
+    let gumbNazad = document.querySelector('a[class = radovi2]');
+
+    gumbNazad.addEventListener('click', () => {
+	        window.history.back();
+    });
+</script>
+
+</html>
