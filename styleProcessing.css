@@ -349,6 +349,7 @@ p:hover {
 }
 
 #kontakt .info1 {
+  font-size: 15px;
   cursor: auto;
   letter-spacing: -0.3px;
   font-family: fontichB;
@@ -358,6 +359,21 @@ p:hover {
 
 @media screen and (min-width: 767px) {
   #kontakt .info1 {
+    color: #fefefe;
+  }
+}
+
+#kontakt .info2 {
+  font-size: 15px;
+  cursor: auto;
+  letter-spacing: -0.3px;
+  font-family: fontichB;
+  background-color: transparent;
+  color: #fefefe;
+}
+
+@media screen and (min-width: 767px) {
+  #kontakt .info2 {
     color: #fefefe;
   }
 }
