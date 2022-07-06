@@ -91,7 +91,7 @@ a:hover {
     color: #ceff5a;
     -webkit-transform: translateX(-3px);
             transform: translateX(-3px);
-    letter-spacing: -11px;
+    letter-spacing: -5px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
